@@ -31,6 +31,7 @@ module "bootstrap" {
 }
 
 # Build the VPC
+  /* Commented out until after bootstrap
 resource "aws_vpc" "vpc" {
   cidr_block           = "10.1.0.0/16"
   instance_tenancy     = "default"
@@ -60,4 +61,4 @@ resource "aws_route_table" "route_table2" {
     Terraform = "true"
   }
 }
-
+*/
